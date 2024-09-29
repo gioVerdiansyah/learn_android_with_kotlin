@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="25dp"
+    android:paddingTop="50dp"
+    tools:context=".presentation.view.activity_and_intent.FillData">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_your_number"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp">
+
+        <RadioButton
+            android:id="@+id/rb_100"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_100"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb_150"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_150"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <RadioButton
+            android:id="@+id/rb_200"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_200"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb_250"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_250"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rb_300"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/_300"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+    </RadioGroup>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#808080"/>
+
+    <Button
+        android:id="@+id/choose_and_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/chose_and_back"/>
+
+</LinearLayout>

@@ -1,0 +1,95 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Basic_Widget" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+
+        <!-- TRY TO ADD SOME THEME SETTING -->
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/gray</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <!-- Secondary brand color -->
+        <item name="colorSecondary">@color/green_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!--
+            Primary: The main color that shows the brand of an application. Commonly used in many places, such as Floating Action Button, main button, active state on Switch and Radio Button.
+            Secondary: Used for less prominent components such as filter chips.
+            Tertiary: Used to provide contrasting color accents to balance the primary and secondary colors. Or it can also be used to give higher attention to a component.
+        -->
+    </style>
+
+    <style name="Theme.Basic_Widget" parent="Base.Theme.Basic_Widget" />
+
+    <style name="TitleStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#03A9F4</item>
+        <item name="android:typeface">monospace</item>
+    </style>
+
+    <style name="TitleStyle.Red">
+        <item name="android:textColor">#E91E63</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="TextContent">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="TextContent.HeadlineMedium">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:textAppearance">@style/TextAppearance.Material3.HeadlineMedium</item>
+    </style>
+    <style name="TextContent.HeadlineMedium.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextContent.TitleMedium">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.TitleMedium</item>
+    </style>
+    <style name="TextContent.TitleMedium.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="TextContent.TitleMedium.Bold.MarginLeftRight">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+    <style name="TextContent.BodyMedium">
+        <item name="android:textAppearance">@style/TextAppearance.Material3.BodyMedium</item>
+    </style>
+    <style name="TextContent.BodyMedium.Gray">
+        <item name="android:textColor">@color/colorSubtitle</item>
+    </style>
+    <style name="TextContent.BodyMedium.Gray.MarginLeftRight">
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginRight">16dp</item>
+    </style>
+    <style name="TextContent.BodyMedium.White">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    <style name="TextContent.BodyMedium.White.MarginAll">
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="TextContent.BodyMedium.Bold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ButtonGeneral">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginRight">16dp</item>
+        <item name="android:layout_marginLeft">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+    </style>
+    <style name="ButtonGeneral.SecondaryVariant">
+        <item name="android:backgroundTint">@color/green_light</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingHorizontal="25dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/to_cube_calculation"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cube_calculation"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/description_about_me"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/description_about_me"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/about_me"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/about_me"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/my_whatsapp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/my_whatsapp"
+        android:layout_gravity="center"/>
+
+
+    <Button
+        android:id="@+id/catch_fill_data"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/catch_and_fill_data"
+        android:layout_gravity="center"/>
+
+    <Button
+        android:id="@+id/to_debug_and_log"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/debugging_and_logging"
+        android:layout_gravity="center"/>
+
+</LinearLayout>

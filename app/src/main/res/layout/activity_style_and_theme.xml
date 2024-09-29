@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="50dp"
+    android:paddingHorizontal="25dp"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".presentation.view.style_and_theme.ActivityStyleAndTheme">
+
+    <Button
+        android:id="@+id/to_styleing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/style"/>
+
+    <Button
+        android:id="@+id/to_practice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/practice_style_and_theme"/>
+
+  </LinearLayout>
